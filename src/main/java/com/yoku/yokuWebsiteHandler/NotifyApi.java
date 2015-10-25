@@ -15,10 +15,14 @@ import javax.ws.rs.core.MediaType;
  * Root resource (exposed at "notify" path)
  */
 @Path("notify")
-@Singleton()
+@Singleton
 public class NotifyApi {
 	
 	private static String mysql_pass = null;
+	
+	public NotifyApi() {
+		
+	}
 	
 	public NotifyApi(String pass) {
 		setMySqlPassword(pass);

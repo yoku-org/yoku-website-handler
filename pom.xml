@@ -66,6 +66,7 @@
 					<mainClass>com.yoku.yokuWebsiteHandler.Server</mainClass>
 					<arguments>
 						<argument>6161</argument>
+						<argument>yoku2015!</argument>
 					</arguments>
 				</configuration>
 			</plugin>
